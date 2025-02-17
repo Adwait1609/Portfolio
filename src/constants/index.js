@@ -26,6 +26,7 @@ import {
     machinelearning,
     webdeveloper,
     sql,
+    coursehelper,
   } from "../assets";
   
   export const navLinks = [
@@ -205,43 +206,110 @@ import {
     },
   ];
   
+  // const projects = [
+  //   {
+  //     name: "CourseHelper",
+  //     description:
+  //       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+  //     tags: [
+  //       {
+  //         name: "react",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "mongodb",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "tailwind",
+  //         color: "pink-text-gradient",
+  //       },
+  //     ],
+  //     image: carrent,
+  //     source_code_link: "https://github.com/",
+  //   },
+  //   {
+  //     name: "Job IT",
+  //     description:
+  //       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+  //     tags: [
+  //       {
+  //         name: "react",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "restapi",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "scss",
+  //         color: "pink-text-gradient",
+  //       },
+  //     ],
+  //     image: jobit,
+  //     source_code_link: "https://github.com/",
+  //   },
+  //   {
+  //     name: "Trip Guide",
+  //     description:
+  //       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //     tags: [
+  //       {
+  //         name: "nextjs",
+  //         color: "blue-text-gradient",
+  //       },
+  //       {
+  //         name: "supabase",
+  //         color: "green-text-gradient",
+  //       },
+  //       {
+  //         name: "css",
+  //         color: "pink-text-gradient",
+  //       },
+  //     ],
+  //     image: tripguide,
+  //     source_code_link: "https://github.com/",
+  //   },
+  // ];
+  
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "SURGE'24 IITK - Robotic Defect Classification",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Improved defect classification efficiency by 61.7% on ArmBench dataset using Vision Transformers (ViT-B) and enhanced image segmentation with YOLOv8 for robotic manipulation systems.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pytorch",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "opencv",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: tripguide,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Microstructure Evaluation",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Analyzed CNC machining effects on material microstructure using Johnson-Cook Model, achieving 46% improvement in surface finish quality through optimized machining parameters.",
       tags: [
         {
-          name: "react",
+          name: "matlab",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "cnc",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "ansys",
           color: "pink-text-gradient",
         },
       ],
@@ -249,26 +317,70 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Hydrogen Fuel Cell Modeling",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed PEMFC thermodynamic model achieving 82.8% fuel cell efficiency using MATLAB SIMULINK, outperforming conventional ICE vehicles by 42%.",
       tags: [
         {
-          name: "nextjs",
+          name: "matlab",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "simulink",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "thermodynamics",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: carrent,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "CourseHelper-IITK",
+      description:
+        "Full-stack course management system with CRUD operations and JWT authentication, deployed on Vercel with 98% uptime.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: coursehelper,
+      source_code_link: "https://github.com/Adwait1609/CourseHelper",
+    },
+    {
+      name: "DSA Visualization Suite",
+      description:
+        "Interactive web applications featuring Sudoku solver (backtracking), Tic-Tac-Toe AI (minimax), and tree structure visualizations with 10k+ user interactions.",
+      tags: [
+        {
+          name: "javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cpp",
+          color: "green-text-gradient",
+        },
+        {
+          name: "algorithms",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    }
   ];
-  
+
+
+
   export { services, technologies, experiences, testimonials, projects };
